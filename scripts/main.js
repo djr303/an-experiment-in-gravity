@@ -47,8 +47,6 @@ import Ball from './ball.js';
 
   const startAnimation = () => {
     const ballsArray = generateBallArray(1000);
-
-    window.ball = ballsArray[0];
     const step = () => {
       clearCanvas();
       let ballsArrayLen = ballsArray.length;
