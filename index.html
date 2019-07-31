@@ -3,14 +3,23 @@
   <head>
     <title>bouncing balls</title>
     <style>
-      html, body, canvas {
+      html, body {
         padding: 0;
         margin: 0;
+        width: 100vw;
+        height: 100vh;
       }
+			canvas {
+				padding: 0;
+				margin: 0;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+			}
     </style>
   </head>
   <body>
     <canvas id="canvas"></canvas>
-    <script type="text/javascript" src="/scripts/balls.js">
+    <script type="module" src="/scripts/main.js"></script>
   </body>
 </html>
