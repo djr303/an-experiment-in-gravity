@@ -70,6 +70,7 @@ class Ball {
   setNextYPosition() {
     this.getDirection();
     if (this.frameArrayComplete) {
+
       this.setNextYPositionFromFrameArray();
     } else {
       this.setNextFrameTime();
